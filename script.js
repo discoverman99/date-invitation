@@ -214,7 +214,7 @@ function showFinalScreen() {
 // ---------- WHATSAPP ----------
 
 const WHATSAPP_NUMBER =
-"237XXXXXXXXX";
+"237678445361";
 
 document
 .getElementById("whatsappBtn")
