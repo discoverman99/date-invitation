@@ -1,0 +1,214 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For San 💖</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background-blur"></div>
+
+<div class="container">
+
+<!-- SCREEN 1 -->
+
+<div class="card active" id="screen1">
+
+<h1>👋 Hey San</h1>
+
+<p>I made something for you...</p>
+
+<button class="main-btn" onclick="nextScreen(1,2)">
+Continue →
+</button>
+
+</div>
+
+<!-- SCREEN 2 -->
+
+<div class="card" id="screen2">
+
+<h1>💌</h1>
+
+<p>I have something important to ask you...</p>
+
+<button class="main-btn" onclick="nextScreen(2,3)">
+Continue →
+</button>
+
+</div>
+
+<!-- SCREEN 3 -->
+
+<div class="card" id="screen3">
+
+<h1>😊</h1>
+
+<p class="question">
+Would you go on a date with me?
+</p>
+
+<div class="choice-area">
+
+<button id="yesBtn" class="yes-btn">
+Yes 😊
+</button>
+
+<button id="noBtn" class="no-btn">
+No 😅
+</button>
+
+</div>
+
+</div>
+
+<!-- SCREEN 4 -->
+
+<div class="card" id="screen4">
+
+<h1>📅</h1>
+
+<p>Pick a day</p>
+
+<input type="date" id="datePicker">
+
+<button class="main-btn" id="dateNext">
+Continue →
+</button>
+
+</div>
+
+<!-- SCREEN 5 -->
+
+<div class="card" id="screen5">
+
+<h1>⏰</h1>
+
+<p>Pick a time</p>
+
+<select id="timePicker">
+
+<option>12:00 PM</option>
+<option>1:00 PM</option>
+<option>2:00 PM</option>
+<option>3:00 PM</option>
+<option>4:00 PM</option>
+<option>5:00 PM</option>
+<option>6:00 PM</option>
+<option>7:00 PM</option>
+
+</select>
+
+<button class="main-btn" id="timeNext">
+Continue →
+</button>
+
+</div>
+
+<!-- SCREEN 6 -->
+
+<div class="card" id="screen6">
+
+<h1>✨ Choose the vibe ✨</h1>
+
+<div class="activity-grid">
+
+<div class="activity-card" data-activity="Ice Cream 🍦">
+🍦
+<span>Ice Cream</span>
+</div>
+
+<div class="activity-card" data-activity="KFC 🍗">
+🍗
+<span>KFC</span>
+</div>
+
+<div class="activity-card" data-activity="Movie Night 🎬">
+🎬
+<span>Movie Night</span>
+</div>
+
+<div class="activity-card" data-activity="Late Night Walk 🚶">
+🚶
+<span>Late Night Walk</span>
+</div>
+
+<div class="activity-card" data-activity="Beach Day 🏖️">
+🏖️
+<span>Beach Day</span>
+</div>
+
+<div class="activity-card" data-activity="Pizza Date 🍕">
+🍕
+<span>Pizza Date</span>
+</div>
+
+</div>
+
+</div>
+
+<!-- SCREEN 7 -->
+
+<div class="card" id="screen7">
+
+<h1>💖</h1>
+
+<p id="loadingText">
+Planning perfect date...
+</p>
+
+<div class="progress-wrapper">
+
+<div class="progress-bar">
+
+<div class="progress-fill" id="progressFill"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- SCREEN 8 -->
+
+<div class="card" id="screen8">
+
+<h1>😎 Date Request Accepted</h1>
+
+<div id="finalSummary"></div>
+
+<p class="final-line">
+
+Now I guess I actually have to plan this 😅
+
+</p>
+
+<button id="whatsappBtn" class="main-btn">
+
+📱 Send My Choice
+
+</button>
+
+</div>
+
+</div>
+
+<!-- HEART CONFETTI -->
+
+<div id="confettiContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+```
